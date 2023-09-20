@@ -3,7 +3,7 @@ require("dotenv").config()
 const express = require("express");
 const httpStatusText = require("./utils/httpStatusText")
 const cors = require("cors");
-const path = require("node:path");
+const path = require("path");
 const app = express();
 const mongoose = require("mongoose");
 
